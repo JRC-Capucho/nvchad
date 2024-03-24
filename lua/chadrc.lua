@@ -2,12 +2,14 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+  theme = "catppuccin",
+  transparency = true,
+  statusline = {
+    theme = "vscode_colored",
+  },
+  tabufline = {
+    enabled = false,
+  },
 }
 
 return M
